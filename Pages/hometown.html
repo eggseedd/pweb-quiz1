@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="profile-html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <title>Raditya Yusuf's Hometown</title>
+</head>
+<body class="profile-body">
+    <header class="profile-header">
+        <nav>
+            <div class="watermark">
+                <p>Raditya Yusuf Annaafi'</p>
+            </div>
+            <div class="pages-link">
+                <a href="../index.html" class="anchor-text">Homepage</a>
+                <a href="profile.html" class="anchor-text">Profile</a>
+                <a href="food.html" class="anchor-text">Local Food</a>
+                <a href="tourist.html" class="anchor-text">Tourist Destination</a>
+            </div>
+        </nav>
+    </header>
+    <main class="hometown-section">
+            <div class="scroll-container">
+                <img src="/Images/balikpapan1.jpg">
+                <img src="/Images/balikpapan2.jpg">
+                <img src="/Images/balikpapan3.jpg">
+                <img src="/Images/balikpapan4.jpg">
+            </div>
+            <div class="hometown-desc">
+                <div class="hometown-desc-text">
+                    <h1>BALIKPAPAN</h1>
+                    <p>Balikpapan, a seaport city in East Kalimantan, 
+                        Indonesia, is known for its oil industry, 
+                        beautiful beaches, and vibrant economy, 
+                        making it a key financial center in Kalimantan.
+                    </p>
+                </div>  
+
+                <div id="map" style="width: 100%; height: 300px; margin-bottom: 0;"></div>
+            </div>
+    </main>
+<script src="/app.js"></script>
+</body>
+</html>
