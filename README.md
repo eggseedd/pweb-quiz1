@@ -46,6 +46,8 @@ This is a multi-page personal website that includes sections for profile, hometo
     ├── abon-kepiting.jpg
     ├── balikpapan1.jpg
     └── balikpapan4.jpg
+```
+
 ## Credits
 - Leaflet.js: Used for the interactive map on the hometown page.
 - Font Awesome: For icons used across the site.
