@@ -1,7 +1,10 @@
 # Raditya Yusuf Annaafi' Website
 
+## Live Demo
+Check out the live version of the website here: [Live Demo](https://radityayusufwebsite.vercel.app/index.html)
+
 ## Overview
-This is a multi-page personal website that includes sections for profile, hometown, local food, and tourist destinations. The website showcases content about Raditya Yusuf Annaafi', highlighting his hometown of Balikpapan, Indonesia, through text, images, and interactive maps.
+This is a multi-page personal website that includes sections for profile, hometown, local food, and tourist destinations. The website showcases content about Raditya Yusuf Annaafi', highlighting his hometown of Balikpapan, Indonesia, through text, images, and interactive maps. This is an assignment(Quiz 1) from the Web Programming lecture in Informatics Engineering ITS. 
 
 ## Features
 - **Homepage**: Introduction and welcome section with navigation links.
@@ -47,6 +50,15 @@ This is a multi-page personal website that includes sections for profile, hometo
     ├── balikpapan1.jpg
     └── balikpapan4.jpg
 ```
+
+## Difficulties Faced
+- **Responsive Design**: The layout from my phone(Samsung S23) is a bit different from what i expected. I inspected the html using Iphone 14 Pro Max model and it looked the same as my expectation. So maybe it will look slightly weird in some devices.
+- **Horizontal Images Scrolling**: It was so difficult to get it right. Because i wanted to make the images in `hometown.html` can be scrolled horizontally(when it is view from phone), the implementation is a bit different(handling *`height, overflow`*, and etc) from vertical scroll. So, it takes a lot of time just to get that part right.
+- **Javascript Implementation**: I was so confused where do i have to use javascript in this kind of website. I made several web portfolios before, following youtube tutorials, and it only used html and css. So, the only thing that i made using javascript is just the map from the `hometown.html`.
+
+## Note For Lecturer
+- I apologize for not following the routing requirement. There will be confusion if i use `quiz 1` folder because i already have the same folder name in my directory.
+- I can't include `pseudo-code` and `screenshots` because the lack of organization in my `styles.css` file and i am a bit confused what should i attach to the report. The CSS for all pages jumbled in just 1 file so it is kind of confusing. I copied some of the styles that were implented in my projects before. So, some of the classes is mixed and not related with the structure in the `html` files.
 
 ## Credits
 - Leaflet.js: Used for the interactive map on the hometown page.
